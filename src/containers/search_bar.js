@@ -58,4 +58,6 @@ function mapDispatchToProps(dispatch) {
     return bindActionCreators({ fetchWeather }, dispatch);
 }
 
+
+// Connect that ActionCreator to the SearchBar
 export default connect(null, mapDispatchToProps)(SearchBar);

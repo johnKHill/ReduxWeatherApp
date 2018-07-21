@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
-// Middleware
+
+// Middleware - Help you cleanup your code complexity
 import ReduxPromise from 'redux-promise';
 
 import App from './components/app';

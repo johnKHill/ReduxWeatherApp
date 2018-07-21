@@ -1,3 +1,4 @@
+//Library to combine the reducers into 1.
 import { combineReducers } from 'redux';
 
 // Add the Reducer to this main reducer file
